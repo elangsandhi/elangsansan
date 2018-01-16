@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.ktupad.v2" version="2.25" xmlns="http://www.w3.org/ns/widgets">
-  <name>Android v2</name>
+  <name>Ktupad v2</name>
   <description>App untuk tes plugin cordova</description>
   <author email="ktupad@gmail.com" href="https://ktupad.com">wawan sismadi</author>
   <preference name="phonegap-version" value="cli-6.3.0" />
