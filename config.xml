@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<widget id="com.ktupad.map" version="1.0" xmlns="http://www.w3.org/ns/widgets">
-<name>Ktupad Map</name>
+<widget id="com.ktupad.v2" version="1.0" xmlns="http://www.w3.org/ns/widgets">
+<name>Ktupad V2</name>
 <description>Biarkan sederhana, biar ringan.</description>
 <author email="ktupad@gmail.com" href="https://ktupad.com">wawan sismadi</author>
 <preference name="phonegap-version" value="cli-6.5.0" />
