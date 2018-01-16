@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>ktupad</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="shortcut icon" href="favicon.png">
+<link rel="stylesheet" type="text/css" href="ktupad.css">
+<script type="text/javascript" src="cordova.js"></script>
+</head>
+<body>
+<div class="atas" id="atas">
+	<a href="#" class="left btn ico-burger" onClick="ktupad.set.konten({id:'kiri',width:'150px'});" ></a>
+	<a href="#" class="left btn" onClick="app.Awal();">ktupad</a>
+	<a href="#" class="right btn ico-tridot" onClick="ktupad.set.konten({id:'kanan',display:'block'});" ></a>
+	<a href="#" class="right btn ico-info"   onClick="ktupad.set.bawah('Info');" ></a>
+</div>
+<div class="kanan" id="kanan">
+	<a href="#" class="btn ico-close" onClick="ktupad.set.konten({id:'kanan',display:'none'});" ></a>
+	<a href="#" class="btn" onClick="ktupad.set.depan(ktupad.ex.Loader() );" >Loader</a>
+	<a href="#" class="btn" onClick="ktupad.set.depan(ktupad.ex.Float() );" >Float</a>
+	<a href="#" class="btn" onClick="ktupad.set.modal(ktupad.ex.Login() );" >Modal</a>
+	<a href="#" class="btn" onClick="ktupad.set.belakang(ktupad.ex.Tabs() );" >Tabs</a></div>
+<div class="bawah" id="bawah"></div>
+<div class="kiri" id="kiri">
+	<a href="#" class="btn ico-close" onClick="ktupad.set.konten({id:'kiri',width:0});"></a>
+	<a href="#" class="btn" onClick="ktupad.ex.Setting(function(data){ktupad.get.id('belakang').innerHTML=data;});" >Setting</a>
+</div>
+<div class="depan fs" id="depan"></div>
+<div class="belakang" id="belakang">Hello Ktupad</div>
+<script type="text/javascript" src="ktupad.js"></script>
+<script type="text/javascript" src="init.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html> 
